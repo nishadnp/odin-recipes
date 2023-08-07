@@ -18,8 +18,8 @@ h1
 
 .container {
     margin: 0 auto;
-    border: 5px solid red;
-    width: 600px;
+    width: 700px;
+    height: 800px;
     padding: 10%;
     border-radius: 10%;
 }
@@ -29,10 +29,7 @@ h1
 }
 
 .container .image {
-    width: 300px;
-    height: 250px;
-
-    width: 440px;
+    width: 500px;
     height: auto;
 }
 
@@ -40,6 +37,8 @@ h1
 .container a {
     text-decoration: none;
     color: green;
+    font-weight: 700;
+    font-size: larger;
 }
 
 

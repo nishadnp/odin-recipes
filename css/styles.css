@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(white, palegoldenrod);
+    
+}
+
+h1
+{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    color: firebrick;
+    
+}
+
+
+.container {
+    margin: 0 auto;
+    border: 5px solid red;
+    width: 600px;
+    padding: 10%;
+    border-radius: 10%;
+}
+
+.image {
+    border-radius: 5%;
+}
+
+.container .image {
+    width: 300px;
+    height: 250px;
+
+    width: 440px;
+    height: auto;
+}
+
+
+.container a {
+    text-decoration: none;
+    color: green;
+}
+
+
+
+.description .image {
+    height: 250px;
+    width: auto;
+    
+}
+
+.description .text {
+    display: inline-block;
+    width: 250px;
+    margin-left: 10px;
+    
+}
+
+.container,
+.instructions {
+    font-family: 'Courier New', monospace;
+    background-color: aliceblue;
+    border: 5px solid red;
+}
+
+.description,   
+.instructions {
+    margin: 1% 10%;
+    padding: 20px;
+}
+
+.instructions {
+    border-radius: 10%;
+}

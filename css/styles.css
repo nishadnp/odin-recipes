@@ -4,7 +4,6 @@
 
 body {
     background: linear-gradient(white, palegoldenrod);
-    
 }
 
 h1
@@ -12,7 +11,6 @@ h1
     text-align: center;
     font-family:'Times New Roman', Times, serif;
     color: firebrick;
-    
 }
 
 
@@ -44,16 +42,14 @@ h1
 
 
 .description .image {
-    height: 250px;
-    width: auto;
-    
+    height: auto;
+    width: 300px;
 }
 
 .description .text {
     display: inline-block;
     width: 250px;
-    margin-left: 10px;
-    
+    margin-left: 50px;
 }
 
 .container,
@@ -71,4 +67,8 @@ h1
 
 .instructions {
     border-radius: 10%;
+}
+
+.content {
+    font-weight: 600;
 }
